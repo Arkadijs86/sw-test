@@ -1,0 +1,53 @@
+$bdcolor: #ececec;
+$breakpoint: 480px;
+$small-font:24px;
+
+.products {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ min-height: 80vh;
+    }
+.header {
+ 
+        display: flex;
+        justify-content:space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 90px;
+        border-bottom: 3px solid $bdcolor;
+        
+}
+.header-text {
+margin: 15px 0px 0px 50px ;    
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: $small-font;
+    }
+    .header-text {
+        margin: 30px 0px 0px 50px ;    
+        }
+  }
+.buttons {
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 50px 0px 0px ;     
+}
+.card {
+   
+    border: 3px solid $bdcolor;
+    width: 350px;
+    height:200px;
+    margin: 25px;
+}
+.delete-checkbox{
+    margin: 10px;
+}
+.product-info{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 5px;
+}
